@@ -1,0 +1,12 @@
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZDModuleKit_Example' do
+  pod 'ZDModuleKit', :path => '../'
+
+#  target 'ZDModuleKit_Tests' do
+#    inherit! :search_paths
+#  end
+end
